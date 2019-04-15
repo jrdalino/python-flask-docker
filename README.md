@@ -27,11 +27,11 @@ Python 2.7.10 (default, Aug 17 2018, 19:45:58)
 ## Part 1: Setup Steps
 ### 1.1: Create a folder to hold the project
 ```
-$ mkdir python_flask_docker
+$ mkdir python-flask-docker
 ```
 ### 1.2: Navigate to that directory
 ```
-$ cd python_flask_docker
+$ cd python-flask-docker
 ```
 ## Part 2: Create the Python Flask Hello World Application
 ### 2.1: Create the app.py file
