@@ -98,20 +98,20 @@ python_flask_docker   latest              cf8265dd7d82        19 seconds ago    
 python                2.7                 92c086fc9702        2 weeks ago         914MB
 ```
 
-### 3.2: Run the build
+### 3.3: Run the build
 ```
 $ docker run -d -p 5000:5000 python_flask_docker:latest
 ad04385ef6dc57709b5ec58af705fd5b7f1fb465bed3a8bab68428450a8fee44
 ```
 
-### 3.3: View Containers Running
+### 3.4: View Containers Running
 ```
 $ docker ps
 CONTAINER ID        IMAGE                        COMMAND             CREATED             STATUS              PORTS                    NAMES
 ad04385ef6dc        python_flask_docker:latest   "python app.py"     9 seconds ago       Up 8 seconds        0.0.0.0:5000->5000/tcp   cranky_elion
 ```
 
-### 3.4: View the Restful API locally using CURL, Browser or Postman
+### 3.5: View the Restful API locally using CURL, Browser or Postman
 ```
 $ curl http://127.0.0.1:5000/
 {
