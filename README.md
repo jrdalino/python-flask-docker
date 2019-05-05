@@ -14,6 +14,16 @@ $ python --version
 Python 2.7.10
 ```
 
+### Virtualenv
+```
+$ vitualenv --version
+16.4.3
+$ vitualenv venv
+$ source venv/bin/activate
+(venv) $
+$ source venv/bin/deactivate
+```
+
 ### Flask
 ```
 $ flask --version
