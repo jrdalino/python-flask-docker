@@ -14,22 +14,28 @@ $ python --version
 Python 2.7.10
 ```
 
-### Virtualenv
-```
-$ vitualenv --version
-16.4.3
-$ vitualenv venv
-$ source venv/bin/activate
-(venv) $
-$ source venv/bin/deactivate
-```
-
 ### Flask
 ```
 $ flask --version
 Flask 1.0.2
 Python 2.7.10 (default, Aug 17 2018, 19:45:58) 
 [GCC 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.0.42)]
+```
+
+### Git
+```
+$ git --version
+$ echo 'venv' > .gitignore
+```
+
+### Virtualenv
+```
+$ virtualenv --version
+16.4.3
+$ virtualenv venv
+$ source venv/bin/activate
+(venv) $
+(venv) $ deactivate
 ```
 
 ### Account at https://hub.docker.com/
